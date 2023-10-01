@@ -47,6 +47,15 @@ watch(side, () => {})
       </nav>
     </div>
   </header>
-
-  <RouterView />
+  <div class="container">
+    <aside>
+      <a href="https://github.com/StaryAlgida"
+        ><img src="../public/images/github.svg" alt="GitHub" srcset=""
+      /></a>
+      <a href="https://www.linkedin.com/in/piotr-wawrze%C5%84czyk-6aa15a262/"
+        ><img src="../public/images/linkedin.svg" alt="GitHub" srcset=""
+      /></a>
+    </aside>
+    <RouterView />
+  </div>
 </template>
