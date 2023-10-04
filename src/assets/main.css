@@ -29,8 +29,19 @@ header {
   width: 90px;
   color: white;
   background-color: #fdc81f;
+  border-radius: 0 0 4px 0;
   font-weight: bold;
   flex-shrink: 0;
+}
+
+.title {
+  color: white;
+  font-size: 64px;
+}
+
+.yellow {
+  font-size: 75px;
+  color: #fdc81f;
 }
 
 .container {
@@ -115,4 +126,32 @@ aside a:hover {
   text-decoration: none;
   font-weight: bold;
   color: inherit;
+}
+
+#my-picture {
+  position: absolute;
+  top: 90px;
+  left: 40%;
+  z-index: -1;
+  opacity: 60%;
+
+  width: 945px;
+  height: 950px;
+}
+
+#me-title {
+  line-height: 1.5;
+  margin-top: 125px;
+  margin-left: 25%;
+}
+
+.download-resume {
+  font-size: 2rem;
+  background-color: #fdc81f;
+  padding: 24px 24px;
+  border-radius: 10px;
+  border: none;
+
+  color: white;
+  font-weight: bold;
 }
